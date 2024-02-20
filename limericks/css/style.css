@@ -1,0 +1,46 @@
+/* 
+-Make the background of your entire webpage a color other than white. (Note: Add a "background-color" property to the "body" selector.)
+-Make the font of all the text on your webpage "Arial, Helvetica, sans-serif" (Note: Add a "font-family" property to the "body" selector.)
+-Make all the text on your page align to the center of the webpage (Note: Add a "text-align" property to the "body" selector.) */
+body {
+    background-color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+/*
+-Make the following changes to the h1 text on your page (Note: You will do this by adding properties to the "h1" selector).
+    +Change h1 text to italics (Note: Use "font-style" property for this.)
+    +Add 10px of padding to the top of h1 text (Note: Use "padding-top" property for this.) */
+h1 {
+    font-style: italic;
+    padding-top: 10px;
+}
+
+/*
+-Increase all your paragraph <p> text to a font size of 45px (Note: you will do this by adding a "font-size" property to the "p" selector.) */
+p {
+    font-size: 45px;
+}
+
+/*
+-Make the titles of all the limericks bold (Note: you will do this by adding a "font-weight" property to the ".title" selector. The selector of ".title" is a class.) */
+.title {
+    font-weight: bold;
+}
+
+/*
+-Make the words "The End" a color other than black (Note: you will do this by adding a "color" property to the "#theend" selector. The selector of "#theend" is an ID.) */
+#theend {
+    color:forestgreen;
+}
+
+/* Make the following adjustments to all divs on the page (Note: You will do this by adding properties to the "div" selector.):
+    +Set padding to 50px (Use property "padding.")
+    +Set margins to 80px (Use property "margin.")
+    +Add a black border that is 10px and solid. (Use property "border." Note: the value of this selector will be in the form "10px solid black") */
+div {
+    padding: 50px;
+    margin: 80px;
+    border: 10px solid black;
+}
