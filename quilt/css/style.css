@@ -1,0 +1,101 @@
+body {
+    margin:0;
+}
+div{
+    width:100%;
+    display: flex;
+}
+
+/* SIZE */
+.boxes1 .box {
+    height:250px;
+}
+.boxes2 .box {
+    height:80px;
+}
+.boxes3 .box {
+    height:400px;
+}
+.boxes4 .box {
+    height:180px;
+}
+.boxes5 .box {
+    height:360px;
+}
+
+/* COLORS */
+.green {
+    background: linear-gradient(darkgreen, rgb(94, 133, 26));
+}
+.dark {
+    background: linear-gradient(#063514,rgb(1, 66, 10));
+}
+.olive {
+    background: linear-gradient(darkolivegreen,rgb(110, 148, 110));
+}
+.sea {
+    background: linear-gradient(darkseagreen,rgb(6, 24, 6));
+}
+.sage {
+    background: linear-gradient(rgb(151, 211, 161),#698d3e);
+}
+
+/* POSITION */
+.boxes1 .abs1{
+    width: 200px;
+    height:350px;
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+    border-radius: 100%;
+    
+}
+.boxes1 .abs2{
+    width: 100px;
+    height:300px;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    
+}
+.boxes1 .fix1 {
+    width: 275px;
+    height: 130px;
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    
+}
+/*****/
+.boxes2 .abs1{
+    width: 60px;
+    height:1150px;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+/*****/
+.boxes3 .abs1{
+    width: 600px;
+    height:60px;
+    position: absolute;
+    bottom: 30%;
+    right: 1%;
+    
+}
+.boxes3 .fix1 {
+    width: 15px;
+    height: 500px;
+    position: fixed;
+    bottom: 15%;
+    left: 19%;
+}
+/*****/
+.boxes4 .fix1 {
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    bottom: 8%;
+    right: 22%;
+    border-radius: 100%;
+}
